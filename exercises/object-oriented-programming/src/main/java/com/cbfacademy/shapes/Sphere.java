@@ -7,6 +7,6 @@ public class Sphere extends Shape {
         this.shapeName = "sphere";
     }
     public double area() {
-        return 4 * Math.PI * (radius * radius);
+        return 4 * Math.pow(radius, b:2);
     }
 }
